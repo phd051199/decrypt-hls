@@ -76,13 +76,8 @@ enabled = true
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
 [[kv_namespaces]]
 binding = "PLAY_URL"
-id = "e0b66b41d2d64b29abe5ba196f889169"
-preview_id = "e0b66b41d2d64b29abe5ba196f889169"
-
-[[d1_databases]]
-binding = "DB"
-database_name = "anime_link"
-database_id = "6b642e6a-13f2-475e-b8b7-986699fc50df"
+id = "7aef1c7ee6c242b185b4cdfedd6428ef"
+preview_id = "7aef1c7ee6c242b185b4cdfedd6428ef"
 
 
 # Bind an mTLS certificate. Use to present a client certificate when communicating with another service.
