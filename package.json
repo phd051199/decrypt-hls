@@ -1,19 +1,25 @@
 {
-	"name": "decrypt-hls",
+	"name": "decrypt-hls2",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
-		"test": "vitest"
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
 	},
 	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.5.16",
+		"@cloudflare/vitest-pool-workers": "^0.5.2",
+		"@cloudflare/workers-types": "^4.20241022.0",
+		"@types/pako": "^2.0.3",
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.2",
 		"vitest": "2.0.5",
-		"wrangler": "^3.80.2"
+		"wrangler": "^3.60.3"
 	},
 	"dependencies": {
-		"hono": "^4.6.3"
+		"hono": "^4.6.7",
+		"pako": "^2.1.0"
 	}
 }
